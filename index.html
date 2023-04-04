@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>Smoothies</title>
+    </head> 
+
+    <body>
+        <style> 
+            body {
+            background-image:url("https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-challenge/images/backgrounds/smoothies-bowls.jpg?raw=true");
+        background-color:#cccccc;
+            }
+        </style>
+            
+    <center><h1 style="color:purple;">The Juice Laundry</h1></center> 
+   
+    <center><button id="show-image-button">Our Menu</button></center> 
+    <img id="my-image" src=
+"https://raw.githubusercontent.com/prof-rossetti/internet-technologies/main/exercises/website-challenge/brochure-inside.png"
+    style="display: none;">
+
+            <script>
+                const showImageButton = document.getElementById("show-image-button");
+                const myImage = document.getElementById("my-image"); 
+                showImageButton.addEventListener("click", () => { 
+                   myImage.style.display = "block"; 
+                });
+             </script>
+
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+
+     <marquee>Order Now! 50% Off For first timers!</marquee>
+    </body>
+</html>
